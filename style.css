@@ -1,0 +1,304 @@
+#maincontainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FAFAFA;
+    border-radius: 44px;
+
+}
+
+#centersection ul {
+    display: flex;
+}
+
+#centersection ul li {
+    margin-right: 12px;
+    list-style: none;
+}
+
+.rightsection #navbtnone {
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    border: none;
+}
+
+.rightsection #navbtntwo {
+    border-radius: 40px;
+    padding: 15px;
+    margin-left: 5px;
+
+}
+
+/* Nav css code is ended */
+
+#welcomingpage {
+    background: linear-gradient(rgb(193, 222, 232), rgb(251, 217, 185));
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 22px;
+
+}
+
+#welcomingpagenumberone h1 {
+    font-size: 65px;
+
+}
+#welcomingpagenumberone p {
+    font-size: 21px;
+
+}
+
+#welcomingpagenumbertwo {
+    height: 550px;
+    width: 550px;
+
+}
+
+#welcomingpagenumbertwo img {
+    height: 100%;
+    width: 100%;
+
+}
+
+/* welcoming page css ended */
+#sectionone {
+    margin-top: 75px;
+}
+
+#sectionone {
+    text-align: center;
+}
+
+/* section one css ended */
+#sectiontwo {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+}
+
+.sectiontwobox {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    height: auto;
+    width: 250px;
+
+}
+ /* section two ended  */
+ #sectionthree{
+    margin-top: 53px;
+    text-align: center;
+ }
+ /* section three ended */
+ #sectionfour{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+ }
+ .sectionfourbox{
+    height: auto;
+    width: 250px;
+    border: 1px solid rgb(233, 229, 229);
+ }
+/* sectionfour Ended */
+#sectionfive{
+    margin-top: 75px;
+}
+#sectionfive h1{
+    text-align: center;
+}
+/* section five ended */
+#sectionsix{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+#sectionsixdivone{
+    width: 400px;
+}
+#sectionsixdivone h2{
+    font-size: 33px;
+}
+
+#sectionsixdivone p{
+    height: auto;
+    font-size: 22px;
+    
+
+}
+#sectionsixdivtwo{
+    height: 450px;
+    width: 450px;
+}
+#sectionsixdivtwo img{
+    height: 100%;
+    width:100%;
+}
+#sectionsixdivonelist{
+    margin-top: 16px;
+}
+#sectionsixdivonelist ul{
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+ 
+}
+#sectionsixdivonelist ul li{
+    list-style: none;
+    margin: 8px;
+}
+#btnone{
+    border: 2px solid black;
+    border-radius: 33px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+}
+#btntwo{
+    border: 2px solid black;
+    border-radius: 33px;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+#sectionseven{
+    display: flex;
+    background: linear-gradient(rgb(193, 222, 232), rgb(251, 217, 185));
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 450px;
+}
+#sectionsevendivone p{
+    width: 500px;
+    height: auto;
+    font-size: 24px;
+}
+#sectionsevendivone h2{
+    font-size: 35px;
+}
+
+#sectionsevendivtwo{
+    height: 500px;
+    width: 500px;
+}
+#sectionsevendivtwo img{
+    height: 100%;
+    width: 100%;
+}
+@media only screen and (max-width:673px) {
+    #maincontainer {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    #centersection ul {
+        flex-wrap: wrap;
+        flex-direction: row;
+        display: flex;
+    }
+
+    .rightsection #navbtntwo {
+        border-radius: 40px;
+        padding: 0%;
+        margin: 0%;
+
+    }
+
+    #welcomingpage {
+        background: linear-gradient(rgb(193, 222, 232), rgb(251, 217, 185));
+        height: auto;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        flex-direction: row;
+
+    }
+
+    #welcomingpagenumberone h1 {
+        font-size: 35px;
+
+    }
+
+    #welcomingpagenumbertwo {
+        height: auto;
+        width: auto;
+
+    }
+
+    #welcomingpagenumbertwo img {
+        height: 100%;
+        width: 100%;
+
+    }
+
+    .sectiontwobox {
+        color: rgb(0, 0, 0);
+        background-color: rgb(255, 255, 255);
+        height: 250px;
+        width: 100%;
+        font-size: larger;
+    }
+    /* section two ended  */
+    .sectiontwofour {
+        color: rgb(0, 0, 0);
+        background-color: rgb(255, 255, 255);
+        height: 250px;
+        width: 100%;
+        font-size: larger;
+    }
+    /* section four ended  */
+     
+}
+
+@media only screen and (max-width:1208px) {
+    #welcomingpage {
+        height: auto;
+    }
+    #sectionseven{
+        height: auto;
+    }
+}
+
+@media only screen and (max-width:778px) {
+    .sectiontwobox {
+        color: rgb(0, 0, 0);
+        background-color: rgb(255, 255, 255);
+        height: auto;
+        width: 100%;
+        font-size: 26px;
+        margin-bottom: 8px;
+    }
+    .sectionfourbox {
+        color: rgb(0, 0, 0);
+        background-color: rgb(255, 255, 255);
+        height: auto;
+        width: 100%;
+        font-size: 26px;
+        margin-bottom: 8px;
+    }
+     /* section two ended  */
+}
+@media only screen and (max-width:960px){
+    #sectionsixdivone{
+        width: 100%;
+    }
+    #sectionsixdivtwo{
+        width: 100%;
+    }
+}
+@media only screen and (max-width:1017px){
+    #sectionsevendivone p{
+        width: 100%;
+    }
+}
