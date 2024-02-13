@@ -1,2 +1,2 @@
 # Realstate-Website
-https://raffayrealstate.netlify.app/
+raffayrealstate.netlify.app
