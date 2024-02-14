@@ -26,6 +26,15 @@
     border-radius: 40px;
     padding: 15px;
     margin-left: 5px;
+    transition: 0.3s;
+
+}
+.rightsection #navbtntwo:hover {
+    border-radius: 40px;
+    padding: 15px;
+    margin-left: 5px;
+    background-color: black;
+    color: white;
 
 }
 
@@ -148,13 +157,15 @@
 }
 #sectionsixdivonelist ul{
     display: flex;
-    justify-content: start;
     flex-wrap: wrap;
+    flex-direction: row;
+    margin: 0%;
+    padding: 0%;
  
 }
 #sectionsixdivonelist ul li{
     list-style: none;
-    margin: 8px;
+    margin-right: 12px;
 }
 #btnone{
     border: 2px solid black;
@@ -163,12 +174,28 @@
     background-color: black;
     color: white;
 }
+#btnone:hover{
+    border: 2px solid rgb(228, 222, 222);
+    border-radius: 33px;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    transition: 0.4s;
+}
 #btntwo{
     border: 2px solid black;
     border-radius: 33px;
     padding: 10px;
     background-color: rgb(255, 255, 255);
     color: black;
+    transition: 0.4s;
+}
+#btntwo:hover{
+    border: 2px solid rgb(73, 65, 65);
+    border-radius: 33px;
+    padding: 10px;
+    background-color: rgb(107, 76, 76);
+    color: rgb(255, 255, 255);
 }
 
 #sectionseven{
@@ -258,7 +285,15 @@
         font-size: larger;
     }
     /* section four ended  */
-     
+     #welcomingpagenumberoneimg{
+        width: 100%;
+     }
+     .sectiontwobox{
+        text-align: center;
+     }
+     .sectionfourbox{
+        text-align: center;
+     }
 }
 
 @media only screen and (max-width:1208px) {
